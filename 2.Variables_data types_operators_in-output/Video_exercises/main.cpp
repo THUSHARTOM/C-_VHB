@@ -25,7 +25,7 @@ int main()
     cout<<"Constant: "<<DISCOUNT<<endl;
     */
 
-    /*
+    
     string s = "set discount", name;
 
     float total, product;
@@ -36,12 +36,12 @@ int main()
     cin>>product;
     total = product*(1-DISCOUNT);
 
-    cout << "The product" << name << " costs - "<< total <<endl;
-    */
+    cout << "The product  " << name << " costs - "<< total <<endl;
+    
 
     // Block Scope. Everything outside is available inside.
     // But nothing from inside is available outside
-
+/*
     {
         float total;
         int number1 = 5, number2 = 2;
@@ -49,7 +49,7 @@ int main()
         cout<<"Result: "<<total<<endl;
 
     }
-
+*/
 
     return 0;
 }
